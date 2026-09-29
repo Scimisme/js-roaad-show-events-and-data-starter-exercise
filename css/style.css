@@ -23,6 +23,8 @@
       Variablerne bruges længere nede med var(--sun-size) og var(--car-w).
       Når siden virker: prøv at ændre værdierne. Hvad sker der?
    */
+   --sun-size: 100px;
+   --car-w: 200px;
 
 }
 
@@ -48,7 +50,16 @@
      - background: en linear-gradient med de tre himmelfarver:
          var(--color-sky-top), var(--color-sky-mid), var(--color-sky-bot)
 */
-
+.scene {
+   position: relative;
+   height: 100vh;
+   overflow: hidden;
+   background: linear-gradient(
+               var(--color-sky-top), 
+               var(--color-sky-mid), 
+               var(--color-sky-bot)
+   );
+}
 
 
 /* Skriv selv: nat-tilstand

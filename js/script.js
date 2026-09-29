@@ -194,15 +194,18 @@ function playSound(car) {
 cars.forEach(function(car) {
 
     // Eksempel: hent bilens <img> ved hjælp af id'et fra dataen
-    const getCarElem = document.getElementById(car.id);
+   const getCarElem = document.getElementById(car.id);
 
     // Eksempel: når musen kommer ind over bilen, vises bilens informationer.
     // Nyt i dag: "mouseenter" er en ny event - ligesom "click", bare når musen kommer ind over elementet.
-    getCarElem.addEventListener("mouseenter", function() {
+   getCarElem.addEventListener("mouseenter", function() {
         showTooltip(car);
-    });
+   });
 
     // Skriv selv: lyt efter "click" på getCarElem og kald playSound(car) inde i en anonym function.
+   getCarElem.addEventListener("click", function() {
+      playSound(car)
+   });
 
 });
 
