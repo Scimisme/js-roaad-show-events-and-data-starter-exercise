@@ -242,7 +242,10 @@
      - opacity til 1
      - transform til translateY(0)
 */
-
+.tooltip.is-visible {
+   opacity: 1;
+   transform: translateY(0);
+}
 
 
 
