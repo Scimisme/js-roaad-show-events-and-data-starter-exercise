@@ -12,16 +12,25 @@
 //
 // Eksempel: den første bil er skrevet for dig.
 const cars = [
-    {
-        id: "redCar",
-        brand: "Ford",
-        model: "Mustang",
-        year: 1974,
-        color: "Rød",
-        fuel: "Benzin",
-        sound: "sound/red-car-horn.wav"
-    },
+   {
+      id: "redCar",
+      brand: "Ford",
+      model: "Mustang",
+      year: 1974,
+      color: "Rød",
+      fuel: "Benzin",
+      sound: "sound/red-car-horn.wav"
+   },
 
+   {
+      id: "policeCar",
+      brand: "Volvo",
+      model: "242",
+      year: 1982,
+      color: "Blå og hvid",
+      fuel: "Diesel",
+      sound: "sound/police-car-sound.wav"
+   },
     // Skriv selv: et objekt for politibilen med samme nøgler som ovenfor.
     //   id: "policeCar", brand: "Volvo", model: "242", year: 1982,
     //   color: "Politibil", fuel: "Diesel", sound: "sound/police-car-sound.wav"
