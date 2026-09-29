@@ -121,7 +121,9 @@ const getScene = document.getElementById("scene");
 // og fjerner den, hvis den er der. Det er samme idé som din if/else i billedskift-opgaven,
 // men toggle klarer det på én linje. Selve udseendet står i CSS'en under .scene.night.
 
-
+getSun.addEventListener("click", function() {
+   getScene.classList.toggle("night");
+});
 
 /* ---------------------------------------------------------
    4. FUNKTIONER
