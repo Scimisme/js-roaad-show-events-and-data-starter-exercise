@@ -141,8 +141,10 @@ function showTooltip(car) {
     // Inde i den kan du indsætte værdier med ${ }, fx ${car.brand}.
     // Husk fra "5 minutter"-opgaven: innerHTML kan indsætte HTML-tags som <strong> og <br>.
     getTooltip.innerHTML = `
-        <strong>${car.brand} ${car.model}</strong><br>
-        Årgang: ${car.year}<br>
+         <strong>${car.brand} ${car.model}</strong><br>
+         Årgang: ${car.year}<br>
+         Farve: ${car.color}<br>
+         Brændstof: ${car.fuel}<br>
     `;
     // Skriv selv: tilføj to linjer mere inde i backticks ovenfor: farve (car.color) og brændstof (car.fuel).
 
