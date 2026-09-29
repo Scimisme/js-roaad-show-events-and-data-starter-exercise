@@ -130,7 +130,9 @@
 --------------------------------------------------------- */
 .car1,
 .car2,
-.car3 {
+.car3,
+.car4,
+.car5 {
    position: absolute;
    width: var(--car-w);
    max-width: 28vw;
@@ -213,6 +215,30 @@
 @keyframes car3 {
    0%   { transform: translateX(0) rotateY(180deg); }
    100% { transform: translateX(130vw) rotateY(180deg); }
+}
+
+.car4 {
+   bottom: 15vh;
+   left: -40vw;
+   animation: car4 8s linear infinite;
+   width: 250px;
+}
+
+@keyframes car4 {
+   0%   { transform: translateX(0) rotateY(180deg); }
+   100% { transform: translateX(180vw) rotateY(180deg); }
+}
+
+.car5 {
+   bottom: 10vh;
+   left: -75vw;
+   animation: car5 8s linear infinite;
+   width: 200px;
+}
+
+@keyframes car5 {
+   0%   { transform: translateX(0) rotateY(180deg); }
+   100% { transform: translateX(300vw) rotateY(180deg); }
 }
 
 /* ---------------------------------------------------------

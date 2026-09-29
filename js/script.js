@@ -49,7 +49,7 @@ const cars = [
     //   id: "blueCar", brand: "Volkswagen", model: "Passat", year: 1979,
     //   color: "Lyseblå", fuel: "Diesel", sound: "sound/blue-car-sound.wav"
 
-   /*
+   
    {
       id: "bus",
       brand: "Mercedes",
@@ -70,7 +70,7 @@ const cars = [
       sound: "sound/truck-sound.wav"
    }
 
-   */
+   
 
     // Husk komma mellem objekterne!
 ];
