@@ -49,6 +49,7 @@ const cars = [
     //   id: "blueCar", brand: "Volkswagen", model: "Passat", year: 1979,
     //   color: "Lyseblå", fuel: "Diesel", sound: "sound/blue-car-sound.wav"
 
+   /*
    {
       id: "bus",
       brand: "Mercedes",
@@ -68,12 +69,15 @@ const cars = [
       fuel: "Diesel",
       sound: "sound/truck-sound.wav"
    }
+
+   */
+
     // Husk komma mellem objekterne!
 ];
 
 // Test dit array: åbn konsollen i browseren (F12) og se, hvad der bliver skrevet ud.
-console.log(cars);
-console.log(cars[0].brand);
+////console.log(cars);
+////console.log(cars[0].brand);
 
 // Nyt i dag: forEach gennemløber et array og kører koden én gang for hver bil.
 // Sådan er en forEach bygget op:
@@ -86,7 +90,9 @@ console.log(cars[0].brand);
 // Du skulle gerne se tre linjer i konsollen: Ford, Volvo og Volkswagen.
 //
 // Ekstra: skriv også model og årgang ud på samme linje.
-
+cars.forEach(function(carObj) {
+   console.log(`${carObj.brand} ${carObj.model}`);
+});
 
 
 /* ---------------------------------------------------------
@@ -101,6 +107,8 @@ const getTooltip = document.getElementById("tooltip");
 //
 // Husk: class bruges til CSS (udseende), id bruges til JavaScript.
 
+const getSun = document.getElementById("sun");
+const getScene = document.getElementById("scene");
 
 
 /* ---------------------------------------------------------
