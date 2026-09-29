@@ -43,12 +43,31 @@ const cars = [
       color: "Lyseblå",
       fuel: "Diesel",
       sound: "sound/blue-car-sound.wav"
-   }
+   },
 
     // Skriv selv: et objekt for den blå bil.
     //   id: "blueCar", brand: "Volkswagen", model: "Passat", year: 1979,
     //   color: "Lyseblå", fuel: "Diesel", sound: "sound/blue-car-sound.wav"
 
+   {
+      id: "bus",
+      brand: "Mercedes",
+      model: "Benz",
+      year: 2017,
+      color: "Gul",
+      fuel: "Diesel",
+      sound: "sound/bus-sound.wav"
+   },
+
+   {
+      id: "truck",
+      brand: "Scania",
+      model: "Gunnings",
+      year: 2008,
+      color: "Orange",
+      fuel: "Diesel",
+      sound: "sound/truck-sound.wav"
+   }
     // Husk komma mellem objekterne!
 ];
 
