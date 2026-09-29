@@ -160,7 +160,9 @@ function showTooltip(car) {
 
 // Skriv selv en funktion, der hedder hideTooltip.
 // Den skal fjerne klassen "is-visible" fra getTooltip. Brug classList.remove - det modsatte af classList.add.
-
+function hideTooltip() {
+   getTooltip.classList.remove("is-visible");
+}
 
 
 // Skriv selv en funktion, der hedder playSound, og som tager imod parameteren car.
@@ -177,7 +179,10 @@ function showTooltip(car) {
 // OBS: play er en metode, der følger med Audio. Kald den ikke playSound -
 // playSound er navnet på din egen funktion.
 
-
+function playSound(car) {
+   const audio = new Audio(car.sound);
+   audio.play();
+}
 
 /* ---------------------------------------------------------
    5. LØKKEN - kobler data og billeder sammen
